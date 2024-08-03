@@ -1,0 +1,19 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+u
+Esrc/main/java/org/example/hibernate/app/dao/config/HibernateUtil.java,b\2\b2f6572c4e33b0e85cdf3d096d32d4a9815a18e4
+i
+9src/main/java/org/example/hibernate/app/model/Client.java,c\b\cb89c969e812b8bded8a4391772b3c054a4e3ad0
+G
+src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
+i
+9src/main/java/org/example/hibernate/app/model/Planet.java,e\3\e33135dc8d82d1145197538fd659cfc9efef7cb5
+v
+Fsrc/main/java/org/example/hibernate/app/service/ClientCrudService.java,4\5\45f55b26f10c3373cea395f1dc21e263ca53deb3
+v
+Fsrc/main/java/org/example/hibernate/app/service/PlanetCrudService.java,d\2\d29225796c6316850fc2bbf2b64e03445a6d4e83
+I
+src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
