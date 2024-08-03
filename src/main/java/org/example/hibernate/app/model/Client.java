@@ -3,6 +3,8 @@ package org.example.hibernate.app.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -17,4 +19,7 @@ public class Client {
 
         @Column(name = "name", length = 200, nullable = false)
         private String name;
+
+        @OneToMany(mappedBy = "client", cascade = CascadeType.ALL, orphanRemoval = true)
+        private List<Ticket> tickets;
 }

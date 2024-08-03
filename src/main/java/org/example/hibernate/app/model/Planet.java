@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 import jakarta.validation.constraints.Pattern;
 
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -18,4 +20,10 @@ public class Planet {
 
         @Column(name = "name", length = 500, nullable = false)
         private String name;
+
+        @OneToMany(mappedBy = "fromPlanet", cascade = CascadeType.ALL, orphanRemoval = true)
+        private List<Ticket> departingTickets;
+
+        @OneToMany(mappedBy = "toPlanet", cascade = CascadeType.ALL, orphanRemoval = true)
+        private List<Ticket> arrivingTickets;
 }

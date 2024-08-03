@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-u
-Esrc/main/java/org/example/hibernate/app/dao/config/HibernateUtil.java,b\2\b2f6572c4e33b0e85cdf3d096d32d4a9815a18e4
 i
 9src/main/java/org/example/hibernate/app/model/Client.java,c\b\cb89c969e812b8bded8a4391772b3c054a4e3ad0
 G
@@ -17,3 +15,11 @@ I
 src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
 O
 src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+i
+9src/main/java/org/example/hibernate/app/model/Ticket.java,a\4\a47b2d4884582401b97b8807bd09510c05ba535b
+v
+Fsrc/main/java/org/example/hibernate/app/service/TicketCrudService.java,c\6\c67409e1d3d4f5a714805a00f0aea1f257936d93
+d
+4src/main/java/org/example/hibernate/app/mo/Main.java,5\e\5ed54cb4d450ba532b0234e007adeaa18ed89b8a
+a
+1src/main/java/org/example/hibernate/app/Main.java,7\c\7c7de6cf970ec1b25b0208aacfcb578729328669
